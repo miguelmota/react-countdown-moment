@@ -190,17 +190,17 @@ var _moment = require('moment');
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _index = require('../index.js');
+var _ = require('../');
 
-var _index2 = _interopRequireDefault(_index);
+var _2 = _interopRequireDefault(_);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var endDate = (0, _moment2.default)().add(2, 'hours');
 
-_reactDom2.default.render(_react2.default.createElement(_index2.default, { endDate: endDate }), document.getElementById('root'));
+_reactDom2.default.render(_react2.default.createElement(_2.default, { endDate: endDate }), document.getElementById('root'));
 
-},{"../index.js":3,"moment":29,"react":190,"react-dom":38}],3:[function(require,module,exports){
+},{"../":3,"moment":29,"react":190,"react-dom":38}],3:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./dist/index');

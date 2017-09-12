@@ -36,7 +36,7 @@ class CountdownText extends Component {
     const {countdown, isExpired} = this.state
 
     return (
-      <span className={`CountdownText ${isExpired ? 'expired' : ''}`}>
+      <span className={`ReactCountdownMoment ${isExpired ? 'expired' : ''}`}>
         {countdown}
       </span>
     )
