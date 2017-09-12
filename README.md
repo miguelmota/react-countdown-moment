@@ -1,6 +1,6 @@
 # react-countdown-moment
 
-> [React](https://facebook.github.io/react/) countdown timer text using [moment](https://github.com/moment/moment/).
+> [React](https://facebook.github.io/react/) countdown timer text using [momentjs](https://github.com/moment/moment/).
 
 <img src="./screenshot.gif" width="100">
 
