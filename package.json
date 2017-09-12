@@ -1,6 +1,6 @@
 {
-  "name": "react-countdown-moment",
-  "version": "0.0.1",
+  "name": "react-countdown-moment1",
+  "version": "0.0.2",
   "description": "React coundown timer text using momentjs.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "build": "browserify -t [ babelify --presets [ es2015 react ] ] example/example.js -o example/dist/bundle.js"
   },
   "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babelify": "^7.3.0",
