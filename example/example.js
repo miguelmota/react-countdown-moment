@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import moment from 'moment'
 
-import Countdown from 'react-countdown-moment'
+import Countdown from '../'
 
 const endDate = moment().add(2, 'hours')
 
