@@ -1,5 +1,5 @@
 {
-  "name": "react-countdown-moment1",
+  "name": "react-countdown-moment",
   "version": "0.0.2",
   "description": "React coundown timer text using momentjs.",
   "main": "index.js",
